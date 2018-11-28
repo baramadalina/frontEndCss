@@ -1,0 +1,95 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image:url("https://images.freecreatives.com/wp-content/uploads/2016/02/Grunge-Texture-Seamless-Free-Marble-Texture.jpg");
+    max-height: 1600px; 
+}
+
+aside {
+    max-width: 350px;  
+}
+
+aside a{
+    color:black;
+    
+}
+
+@font-face{
+    font-family: 'MyFont';
+    src:url('BlackAndWhitePicture-Regular.ttf');
+}
+
+h1,h2,h3{   
+    font-family:'MyFont';    
+}
+
+h1{
+    text-align: center;
+}
+
+.flex-container{
+     display: flex;
+     margin: 0 auto auto;
+     flex-wrap: wrap;
+  
+} 
+
+.flex-container > * {
+    flex: 1 100%;
+} 
+
+.flex-item:nth-child(1){
+    position:sticky;
+    top: 0;
+}
+
+.flex-item:nth-child(2),.flex-item:nth-child(3){
+    margin:10px;
+    flex:1;
+}
+
+img {
+    border: 3px solid brown;
+}
+
+nav ul{   
+    padding:5px;
+    text-align:center;   
+   
+}
+
+nav ul li{
+    display: inline;
+    color:black;     
+}
+
+nav a{
+    text-decoration: none;
+    padding:6px;
+    background-color:rgb(53, 38, 38);
+    color:white;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 200%;   
+}
+
+
+nav a:active{
+    color:rgb(165, 92, 165);
+}
+
+nav a:hover{
+    color:rgb(165, 92, 165);
+}
+
+
+.sticky{
+    position:fixed;
+    top: 170px;   
+}
+
+footer {
+    clear: both;
+    margin-bottom: 0;
+  }
+
